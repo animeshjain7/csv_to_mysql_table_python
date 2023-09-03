@@ -21,9 +21,10 @@ try:
 
     if connection.is_connected():
         cursor = connection.cursor()
-
-        print('\tTYPE 0 TO USE OLD DATABASE ')
-        print('\tTYPE 1 TO CREATE NEW DATABASE ')
+        print('\t+-------------------------------+')
+        print('\t| TYPE 0 TO USE OLD DATABASE    |')
+        print('\t| TYPE 1 TO CREATE NEW DATABASE |')
+        print('\t+-------------------------------+')
         choice = int(input('\tCHOICE FOR DATABASE : '))
 
         if choice == 0:
