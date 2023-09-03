@@ -5,7 +5,7 @@ import time
 
 host = "localhost"
 user = 'root'
-password = 'root'                                                              
+password = '#PASSWORD'                                                              
 port = 3306
 
 cursor = None
